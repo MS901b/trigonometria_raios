@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recurso>
+    <titulo>Trigonometria e Raios Luminosos</titulo>
+    <descricao>O software simula a emissão e refração de raios luminosos, permitindo ao aluno obter e compreender a Lei de Snell matematica e fisicamente.</descricao>
+    <estado>Em desenvolvimento</estado>
+    <imagem>refracao.jpg</imagem>
+	<tipo>Animação e Simulação</tipo>
+	<objetivos>Investigar o comportamento de raio luminosos em meios refratários através de relações trigonométricas.</objetivos>
+	<observacoes>É necessário plugin Flash 9.0 ou mais recente e máguina Java 1.6 ou mais recente.</observacoes>
+	<nivel>Ensino Médio</nivel>
+	<componente>Matemática / Física</componente>
+	<temas>Geometria / Som, Imagem e Informação</temas>
+	<autores>Samuel Rocha de Oliveira, Leonardo Barichello</autores>
+	<palavras_chaves>Unicamp, Projeto M³, software educacional, matemática, trigonometria, seno, raios luminosos, refração, lei de snell, princípio de fermat</palavras_chaves>
+	<assunto></assunto>
+</recurso>

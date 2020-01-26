@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml"  xml:lang = "pt-br"  lang = "pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<link rel="stylesheet" type="text/css" href="css/abertura.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
+
+		<script type="text/javascript" src="scripts/protoaculous.js"></script>
+		<script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
+		<script type="text/javascript" src="scripts/popup.js"></script>
+		<script type="text/javascript" src="scripts/abertura.js"></script>
+		
+		<script type="text/javascript" src="scripts/AC_OETags.js"></script>
+		<script type="text/javascript" src="scripts/browser.js"></script>
+		<script type="text/javascript" src="scripts/m3_geral.js"></script>
+		
+		<script type="text/javascript">
+			var nomeSoft = "halos1";
+
+			var FichaUnidade = new Array(
+				{
+					titulo: 'Autor',
+					texto: 'Leonardo Barichello e Samuel Rocha de Oliveira'
+				},
+				{
+					titulo: 'Redação',
+					texto: 'Leonardo Barichello e Samuel Rocha de Oliveira'
+				},
+				{
+					titulo: 'Implementação',
+					texto: 'Filipe Eiji Oshiro'
+				},
+				{
+					titulo: 'Revisão de Língua',
+					texto: 'Denis Barbosa Cacique'
+				},
+				{
+					titulo: 'Revisão de Usabilidade e Acessibilidade',
+					texto: 'Heloisa Vieira da Rocha'
+				},
+				{
+					titulo: 'Ilustração',
+					texto: 'Lucas Ogasawara'
+				}
+			);
+			
+			var FichaProjeto = new Array(
+				{
+					titulo: '- Unicamp -',
+					texto: ''
+				},
+				{
+					titulo: 'Reitor',
+					texto: 'José Tadeu Jorge'
+				},
+				{
+					titulo: 'Vice-Reitor',
+					texto: 'Fernando Ferreira da Costa'
+				},
+				{
+					titulo: '- IMECC -',
+					texto: ''
+				},
+				{
+					titulo: 'Diretor',
+					texto: 'Jaime Vaz'
+				},
+				{
+					titulo: 'Vice-Diretor',
+					texto: 'Edmundo Capellas'
+				},
+				{
+					titulo: '- Matemática Multimídia -',
+					texto: ''
+				},
+				{
+					titulo: 'Coordenação Geral',
+					texto: 'Samuel Rocha de Oliveira'
+				},
+				{
+					titulo: 'Coordenação de Software',
+					texto: 'Leonardo Barichello'
+				},
+				{
+					titulo: 'Coordenação de Implementação',
+					texto: 'Matias Costa'
+				}
+			); 
+
+			
+			/*
+				0 - Travado, nao tem acesso a atividade
+				1 - Liberado
+				2 - Comecou a fazer a atividade
+				3 - Atividade feita
+			*/
+
+			
+			var Perguntas = $H({
+				licenca: {
+					conteudo: '<p>É cedido ao Ministério da Educação o direito de utilizar esta obra sob as modalidades de distribuição, tradução e edição, excetuando-se o uso comercial.</p><p style="margin-top:10px;">Para informações mais detalhadas sobre as licenças dos recursos utilzados nesta unidade, veja "license.txt".</p>',
+					layout: ['seta_baixo','direita'],
+					largura: 25,
+					callback: function(){/*função vazia pra que não faça nada*/},
+					respostas: [{ok: 'Ok'}]
+				}
+			});			
+		</script>
+		
+		<title>Trigonometria e Raios Luminosos</title>
+	</head>
+	<body>
+		<div id="container" class="margem_topo">
+			<div id="abertura">
+				<div id="conteudo">
+					<object id="SalvaLocal" name="SalvaLocal" type="application/x-shockwave-flash" data="applets/SalvaLocal.swf" width="1" height="1">
+						<param name="menu" value="false" />
+						<param name="movie" value="applets/SalvaLocal.swf" />
+					</object>
+					<h1>Trigonometria e Raios Luminosos</h1> 
+					<div id="apresentacao">
+						<div id="imagem_apresentacao">
+							<img src="imgs/ReflexoesGuanabaraRioJimSkea.jpg" width="358" height="269" />
+                            <img src="imgs/RefracaoGotaEcstaticist2007.jpg" width="275" height="269" />
+							<div id="texto_apresentacao">
+								<p>
+									Neste software, você poderá analisar matematicamente o comportamento de raios luminosos quando refratam e 
+									refletem em uma superfície plana. Para isso, será necessário utilizar seus conhecimentos em trigonometria.
+								</p>
+							</div>
+						</div>
+						<div class="a_direita" id="iniciar_software">
+							<div class="a_esquerda apontador">
+								<a href="introducao.html">Iniciar software</a>
+							</div>
+							<div class="a_esquerda seta_apontador"></div>
+						</div>
+					</div>
+					<br class="limpador" />
+					<div id="patrocinio">
+						<div class="a_esquerda">
+							<img id="patrocinio_logo" class="a_esquerda" src="img_layout/logo_abertura.jpg" />
+							<img id="patrocinio_unicamp" class="a_esquerda" src="img_layout/unicamp.jpg" />
+						</div>
+						<div class="a_direita">
+							<img class="a_esquerda" src="img_layout/fnde.jpg" />
+							<img class="a_esquerda" src="img_layout/ciencia.jpg" />
+							<img class="a_esquerda" src="img_layout/ensino.jpg" />
+							<img class="a_esquerda" src="img_layout/educacao.jpg" />
+							<img class="a_esquerda sem_padding" src="img_layout/brasil.jpg"/>
+						</div>
+						<br class="limpador" />
+					</div>
+					<br class="limpador" />
+					
+					<div id="fichas">
+						<a href="javascript:;" onclick="return false;" id="ficha_tecnica_unidade">Ficha técnica do software</a>
+						<span> / </span>
+						<a href="javascript:;" onclick="return false;" id="ficha_tecnica_projeto">Ficha técnica do projeto</a>
+						
+						<br class="limpador" />
+					</div>
+				</div>
+			</div>
+			<br class="limpador" />
+			<div id="rodape">
+				<a id="licenca">Licença</a>&nbsp;<a href="http://m3.mat.br" target="_blank">Sobre o Matemática Multimídia</a>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+			
+
+	var jah_abriu = false;
+	var browser=navigator.appName;
+	var b_version=navigator.appVersion;
+	
+	var flashRequiredMajorVersion = 9.0;
+	var flashRequiredMinorVersion = 0;
+	var flashRequiredRevision = 0;
+	
+	var javaRequiredVersion="1.4+";
+	var hasReqestedVersion = DetectFlashVer(flashRequiredMajorVersion, flashRequiredMinorVersion, flashRequiredRevision);
+
+	/*
+	$('verFlashInst').innerHTML=GetSwfVer();
+	$('verFlashReq').innerHTML=flashRequiredMajorVersion+'.'+flashRequiredMinorVersion+'.'+flashRequiredRevision;
+
+	$('verJavaInst').innerHTML=deployJava.getJREs();
+	$('verJavaReq').innerHTML=javaRequiredVersion;
+	
+	$('browserOsInst').innerHTML = BrowserDetect.browser + ' ' + BrowserDetect.version + ' em ' + BrowserDetect.OS ;
+	*/
+	
+	if ((BrowserDetect.browser=='Firefox') && (BrowserDetect.version>=3)) {
+		//$('statusBrowserOs').setStyle({color:'#00AA00'});
+		//$('statusBrowserOs').innerHTML='Sem problemas detectados.';
+		a = 1;
+	} else 
+	{
+		if ((BrowserDetect.browser=='Internet Explorer') && (BrowserDetect.version>=7))
+		{
+			a=1;
+		}
+		else
+		{
+			var conteudo = '<p><strong>Erro de compatibilidade – Navegador</strong></p><p>O seu navegador não é compatível com este software, para usar este software você precisa ter um dos seguintes navegadores de internet: </p><p>1. Firefox 3.0+ (mais recomendado)<br />2. Internet Explorer 7.0+';
+			conteudo += '<p style="float:right;"><a href="detect.html">Ver relatório de compatibilidade completo</a></p><br class="limpador" />';
+			conteudo += '<p><a id="fechar_desesperado" style="float:right; href="#">Fechar</a><a id="continuar_mesmo_assim" style="float:right; margin-right:10px;"" href="#">Continuar mesmo assim</a><a style="float:right; margin-right:10px;" href="http://www.mozilla.com/firefox">Instalar o Firefox</a></p><br class="limpador" />';
+			var tmp = new PopupDesesperados(conteudo, 20);
+			jah_abriu = true;
+		}
+			
+		//$('statusBrowserOs').setStyle({color:'#CC0000'});
+		//$('statusBrowserOs').innerHTML='Browser diferente de Firefox 3 ou sistema operacional não Windows.';
+		//$('statusBrowserOsTexto').innerHTML='<p>Para estas versões para revisões desses módulos, se requerer o uso do Mozilla Firefox no sistema operacional Windows. Esta é uma exigência apenas temporária, as versões finais serão multi-plataforma.</p>'
+		//	+ '<p>Download: <a href="http://www.mozilla.com/firefox" target="_blank"><img src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox3/FF3_80x15_g.png" width="80" height="15" style="border-style:none;" title="Mozilla Firefox" alt="Firefox" /></a></p>'
+	
+	}
+	
+	
+
+	
+	if (hasReqestedVersion) { 
+		//$('statusFlash').setStyle({color:'#00AA00'});
+		//$('statusFlash').innerHTML='Sem problemas detectados.';
+		a = 1;
+	} else {
+		if (!jah_abriu)
+		{
+			var conteudo = '<p><strong>Erro de compatibilidade – Adobe Flash Player</strong></p><p>A versão mínima necessária do plugin para usar este software é <strong><em>Adobe Flash Player '+flashRequiredMajorVersion+'</em></strong>.</p>';
+			conteudo += '<p style="float:right;"><a href="detect.html">Ver relatório de compatibilidade completo</a></p><br class="limpador" />';
+			conteudo += '<p><a id="fechar_desesperado" style="float:right; href="#">Fechar</a><a id="continuar_mesmo_assim" style="float:right; margin-right:10px;"" href="#">Continuar mesmo assim</a><a style="float:right; margin-right:10px;" href="http://www.adobe.com/go/getflash">Instalar o Plugin do Flash</a></p><br class="limpador" />';
+			var tmp = new PopupDesesperados(conteudo, 20);
+			jah_abriu = true;
+		}
+		
+		//$('statusFlash').setStyle({color:'#CC0000'});
+		//$('statusFlash').innerHTML='Problemas detectados.';
+		//$('statusFlashTexto').innerHTML='<p>Download: <a href="http:///www.adobe.com/go/getflash"><img border=0 src="http://www.adobe.com/images/shared/download_buttons/get_adobe_flash_player.png"></a></p>';
+		
+	}
+	
+	if (deployJava.versionCheck(javaRequiredVersion)) {
+		//$('statusJava').setStyle({color:'#00AA00'});
+		//$('statusJava').innerHTML='Sem problemas detectados.';
+		a = 1;
+	} else {
+		
+		if (!jah_abriu)
+		{
+			var conteudo = '<p><strong>Erro de compatibilidade – Java Virtual Machine</strong></p><p>A versão mínima necessária da Java Virtual Machine para usar este software é <strong><em>'+javaRequiredVersion+'</em></strong>.</p>';
+			conteudo += '<p style="float:right;"><a href="detect.html">Ver relatório de compatibilidade completo</a></p><br class="limpador" />';
+			conteudo += '<p><a id="fechar_desesperado" style="float:right; href="#">Fechar</a><a id="continuar_mesmo_assim" style="float:right; margin-right:10px;"" href="#">Continuar mesmo assim</a><a style="float:right; margin-right:10px;" href="http://www.java.com">Instalar Java VM</a></p><br class="limpador" />';
+			var tmp = new PopupDesesperados(conteudo, 20);
+			jah_abriu = true;
+		}
+		
+		//$('statusJava').setStyle({color:'#CC0000'});
+		//$('statusJava').innerHTML='Problemas detectados.';
+		//$('statusJavaTexto').innerHTML='<p>Download: <a href="http:///www.java.com"><img border=0 src="img/java.jpg"></a></p>';
+		
+	}
+	
+	var endereco = window.location;
+	endereco = endereco.toString();
+	if (endereco.substr(0,7) == 'http://' || endereco.substr(0,8) == 'https://')
+		a = 1;
+	else
+	{
+			var conteudo = '<p><strong>Erro de execução – Não abra esse arquivo html diretamente.</strong></p><p>Para se poder usar esse software, ele deve ser visualizado ou de um servidor na internet ou utilizando o programa AcessarProdutos fornecido.</p>';
+			conteudo += '<p><a id="fechar_desesperado" style="float:right; href="#">Fechar</a><br class="limpador" />';
+			var tmp = new PopupDesesperados(conteudo, 30);
+			$('iniciar_software').update('');
+			jah_abriu = true;
+	}
+	
+
+</script>

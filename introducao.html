@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns = "http://www.w3.org/1999/xhtml"  xml:lang = "pt-br"  lang = "pt-br">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+		<link rel="stylesheet" type="text/css" href="css/abertura.css" media="screen, projection" title="normal"/>
+		<link rel="alternate stylesheet" type="text/css" href="css/abertura2.css" media="screen, projection" title="grande"/>
+
+		<link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/notas.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/bloco.css" media="screen, projection" />
+		<link rel="stylesheet" type="text/css" href="css/calculadora.css" media="screen, projection" />
+		
+		<script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
+		<script type="text/javascript" src="scripts/protoaculous.js"></script>
+		<script type="text/javascript" src="scripts/popup.js"></script>
+		<script type="text/javascript" src="scripts/notas.js"></script>
+		<script type="text/javascript" src="scripts/bloco.js"></script>
+		<script type="text/javascript" src="scripts/calculadora.js"></script>
+
+		<script type="text/javascript" src="scripts/interface.js"></script>
+		<script type="text/javascript" src="scripts/referencias.js"></script>
+		<script type="text/javascript" src="scripts/curiosidades.js"></script>
+
+		<script type="text/javascript" src="scripts/introducao_conteudo.js"></script>
+
+		<script type="text/javascript">
+			var PosicaoAtual = {Atividade: 0, Parte: 0};
+		
+			function MM_CheckFlashVersion(reqVerStr,msg){
+			  with(navigator){
+				var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+				var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+				if (!isIE || !isWin){  
+				  var flashVer = -1;
+				  if (plugins && plugins.length > 0){
+					var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+					desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+					if (desc == "") flashVer = -1;
+					else{
+					  var descArr = desc.split(" ");
+					  var tempArrMajor = descArr[2].split(".");
+					  var verMajor = tempArrMajor[0];
+					  var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+					  var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+					  flashVer =  parseFloat(verMajor + "." + verMinor);
+					}
+				  }
+				  // WebTV has Flash Player 4 or lower -- too low for video
+				  else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+			
+				  var verArr = reqVerStr.split(",");
+				  var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+			  
+				  if (flashVer < reqVer){
+					if (confirm(msg))
+					  window.location = "http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+				  }
+				}
+			  } 
+			}
+		</script>
+		<title>Trigonometria e Raios Luminosos</title>
+	</head>
+	<body>		
+		<object id="SalvaLocal" name="SalvaLocal" type="application/x-shockwave-flash" data="applets/SalvaLocal.swf" width="1" height="1">
+			<param name="menu" value="false" />
+			<param name="movie" value="applets/SalvaLocal.swf" />
+		</object>
+		<div id="container">
+			<div id="cabecalho">
+				<div id="onde_estou">
+					<h1>Trigonometria e Raios Luminosos</h1> <img src="img_layout/setinha-cabecalho.gif" alt=""/> <h2>Introdução</h2>
+				</div>
+				<div id="logo"></div>
+				<div id="links">
+					<a href="mapa.html">Mapa</a>
+					<span>Introdução</span>
+					<a href="index.html">Início</a>
+				</div>
+				<br class="limpador" />
+			</div>
+			<div id="abertura">
+				<div id="conteudo">
+					<div id="texto_abertura">
+						<p>
+							No vídeo ao lado, o dado que estava no fundo da xícara somente se tornou visível depois da adição de água. Isso foi possível graças à refração que a luz sofre ao vir do dado submerso até os nossos olhos (ou até a câmara). Acredite: o dado não flutuou nem inchou. Você pode testar em casa.						</p>
+						<p>
+							Esse fenômeno, assim como vários outros observados na natureza, tem uma descrição matemática muito interessante, sintetizada na conhecida lei de Snell.
+						</p>
+						<p>
+							A refração produz uma ilusão de ótica no observador em virtude do desvio que a luz sofre ao passar de um meio para o outro. Hoje, a física descreve a refração como o fenômeno em que ondas se propagam com velocidades distintas à medida que passam por meios distintos. Curiosamente, isso se dá com qualquer tipo de onda, e não apenas com as  eletromagnéticas da luz.
+						</p>
+				
+						<div class="a_esquerda">
+							<div class="a_esquerda apontador">
+								<a href="mapa.html">Começar</a>
+								
+							</div>
+							<div class="a_esquerda seta_apontador"></div>
+							
+						</div>
+					</div>
+					<script type="text/javascript">
+						AC_FL_RunContent(
+							'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0',
+							'width','519',
+							'height','379',
+							'id','FLVPlayer',
+							'src','FLVPlayer_Progressive',
+							'flashvars','&MM_ComponentVersion=1&skinName=applets/Corona_Skin_3&streamName=applets/refracao&autoPlay=false&autoRewind=false',
+							'quality','high',
+							'scale','noscale',
+							'name','FLVPlayer',
+							'salign','lt',
+							'pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash',
+							'movie','FLVPlayer_Progressive'
+						); //end AC code
+					</script>
+					<div id="applet">
+						<div id="borda_applet" class="altura_applet_4 borda">
+							<noscript>
+								<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="519" height="379" id="FLVPlayer">
+									<param name="movie" value="applets/FLVPlayer_Progressive.swf" />
+									<param name="salign" value="lt" />
+									<param name="quality" value="high" />
+									<param name="scale" value="noscale" />
+									<param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Corona_Skin_3&streamName=applets/refracao&autoPlay=false&autoRewind=false" />
+									<embed src="applets/FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=applets/Corona_Skin_3&streamName=applets/refracao&autoPlay=false&autoRewind=false" quality="high" scale="noscale" width="648" height="480" name="FLVPlayer" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" />
+								</object>
+							</noscript>
+						</div>
+			<br class="limpador">
+			<br class="limpador">
+						
+					</div>
+				</div>
+			</div>
+			<br class="limpador">
+			<div id="rodape">
+				<a href="http://m3.mat.br" target="_blank">Sobre o Matemática Multimídia</a>
+			</div>
+		</div>
+		<div id="ferramentas">
+			<a href="javascript:;" onclick="return false;" id="link_notas"><span class="escondido">referencias</span></a>
+			<a href="javascript:;" onclick="return false;" id="link_bloco"><span class="escondido">bloco de notas</span></a>
+			<a href="javascript:;" id="link_calculadora" onclick="javascript:calculadora();"><span class="escondido">calculadora</span></a>
+			<a href="javascript:setActiveStyleSheet('grande');" id="link_acessibilidade"><span class="escondido">acessibilidade</span></a>
+		</div>
+		<div id="calc" class="escondido"></div>
+	</body>
+</html>
