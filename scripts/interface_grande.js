@@ -54,7 +54,7 @@ Event.observe(document, 'flash:SalvaLocal', function(ev)
 
 document.observe("dom:loaded", function()
 {
-	//gerenciaParte();
+	gerencia_partes();
 	var Questao = null, Item = null, ajuda = null,
 		PartesAnteriores = 0;
 	
