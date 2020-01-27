@@ -1,4 +1,4 @@
-var flash_flag = 0;
+var flash_flag = 1;
 var doc_flag = 0;
 
 Event.observe(document, 'flash:SalvaLocal', function(ev){

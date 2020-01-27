@@ -13,6 +13,7 @@
 		
 		<script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
 		<script type="text/javascript" src="scripts/protoaculous.js"></script>
+		<script type="text/javascript" src="scripts/salvaLocal.js"></script>
 		<script type="text/javascript" src="scripts/popup.js"></script>
 		<script type="text/javascript" src="scripts/notas.js"></script>
 		<script type="text/javascript" src="scripts/bloco.js"></script>
@@ -101,34 +102,15 @@
 							
 						</div>
 					</div>
-					<script type="text/javascript">
-						AC_FL_RunContent(
-							'codebase','http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0',
-							'width','519',
-							'height','379',
-							'id','FLVPlayer',
-							'src','FLVPlayer_Progressive',
-							'flashvars','&MM_ComponentVersion=1&skinName=applets/Corona_Skin_3&streamName=applets/refracao&autoPlay=false&autoRewind=false',
-							'quality','high',
-							'scale','noscale',
-							'name','FLVPlayer',
-							'salign','lt',
-							'pluginspage','http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash',
-							'movie','FLVPlayer_Progressive'
-						); //end AC code
-					</script>
+
 					<div id="applet">
 						<div id="borda_applet" class="altura_applet_4 borda">
-							<noscript>
-								<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="519" height="379" id="FLVPlayer">
-									<param name="movie" value="applets/FLVPlayer_Progressive.swf" />
-									<param name="salign" value="lt" />
-									<param name="quality" value="high" />
-									<param name="scale" value="noscale" />
-									<param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Corona_Skin_3&streamName=applets/refracao&autoPlay=false&autoRewind=false" />
-									<embed src="applets/FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=applets/Corona_Skin_3&streamName=applets/refracao&autoPlay=false&autoRewind=false" quality="high" scale="noscale" width="648" height="480" name="FLVPlayer" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" />
-								</object>
-							</noscript>
+
+							<video width="519" height="379" controls>
+								<source src="applets/refracao.mp4" type="video/mp4">
+							  Your browser does not support the video tag.
+							</video>
+
 						</div>
 			<br class="limpador">
 			<br class="limpador">
@@ -138,7 +120,7 @@
 			</div>
 			<br class="limpador">
 			<div id="rodape">
-				<a href="http://m3.mat.br" target="_blank">Sobre o Matemática Multimídia</a>
+				<a href="http://​m3.ime.unicamp.br" target="_blank">Sobre o Matemática Multimídia</a>
 			</div>
 		</div>
 		<div id="ferramentas">
