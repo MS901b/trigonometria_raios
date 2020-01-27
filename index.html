@@ -192,8 +192,8 @@
 	
 	$('browserOsInst').innerHTML = BrowserDetect.browser + ' ' + BrowserDetect.version + ' em ' + BrowserDetect.OS ;
 	*/
-	
-	if ((BrowserDetect.browser=='Firefox') && (BrowserDetect.version>=3)) {
+	analisaAmbiente();
+	/*  if ((BrowserDetect.browser=='Firefox') && (BrowserDetect.version>=3)) {
 		//$('statusBrowserOs').setStyle({color:'#00AA00'});
 		//$('statusBrowserOs').innerHTML='Sem problemas detectados.';
 		a = 1;
@@ -217,12 +217,12 @@
 		//$('statusBrowserOsTexto').innerHTML='<p>Para estas versões para revisões desses módulos, se requerer o uso do Mozilla Firefox no sistema operacional Windows. Esta é uma exigência apenas temporária, as versões finais serão multi-plataforma.</p>'
 		//	+ '<p>Download: <a href="http://www.mozilla.com/firefox" target="_blank"><img src="http://sfx-images.mozilla.org/affiliates/Buttons/firefox3/FF3_80x15_g.png" width="80" height="15" style="border-style:none;" title="Mozilla Firefox" alt="Firefox" /></a></p>'
 	
-	}
+	} */
 	
 	
 
 	
-	if (hasReqestedVersion) { 
+	/*if (hasReqestedVersion) { 
 		//$('statusFlash').setStyle({color:'#00AA00'});
 		//$('statusFlash').innerHTML='Sem problemas detectados.';
 		a = 1;
@@ -240,7 +240,7 @@
 		//$('statusFlash').innerHTML='Problemas detectados.';
 		//$('statusFlashTexto').innerHTML='<p>Download: <a href="http:///www.adobe.com/go/getflash"><img border=0 src="http://www.adobe.com/images/shared/download_buttons/get_adobe_flash_player.png"></a></p>';
 		
-	}
+	}*/
 	
 	if (deployJava.versionCheck(javaRequiredVersion)) {
 		//$('statusJava').setStyle({color:'#00AA00'});
