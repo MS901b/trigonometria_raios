@@ -48,6 +48,7 @@ function exec_init(){
 
 	if (flash_flag && doc_flag)
 	{
+		setAtividade('atividade_1',2,false);	//Comecou a fazer a atividade_1
 		switch (PosicaoAtual.Parte) {
 			case 0:
 				//Carrega valores iniciais
