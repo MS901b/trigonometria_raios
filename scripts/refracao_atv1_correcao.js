@@ -249,6 +249,8 @@ function corrige_q_1_b(valor) {
 		applet.evalCommand('P7 = (' + anguloIncidencia + ',' + anguloSaida + ')');
 		applet.setFixed('P7', true);
 		applet.setColor('P7',204,0,0);
+		applet.setPointSize('P7', 3);
+        applet.setLabelVisible('P7', false);
 	}
 	
 	return [valor[0] == anguloSaida];
@@ -404,7 +406,7 @@ function corrige_q_5_a(valor) {
 function corrige_q_6_a(valor) {
 	valor[0] = valor[0].replace(',','.');
 	
-	return [(Math.abs(valor[0] - 1.33) < 0.025)];
+	return [(Math.abs(valor[0] - 1.33) <= 0.040000000000000036)]; //agora 1.29 <= k <= 1.37 //valor anterior 0.025
 }
 
 function corrige_q_7_a(valor) {

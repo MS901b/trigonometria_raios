@@ -91,7 +91,7 @@ var Questoes =
 	{//Parte 2
 		parte2_q4: //Questão 4
 		{
-			enunciadoGeral: 'Utilizando a calculadora disponível na barra de ferramenta abaixo, calcule:',
+			enunciadoGeral: 'Utilizando uma calculadora, calcule:',
 			itens:
 			[
 				{//A
@@ -162,7 +162,7 @@ var Questoes =
 					tipo: 'input',
 					depois: 'graus',
 					corrigir: corrige_q_7_b,
-					enunciado: 'Utilizando o botão arcsen da calculadora abaixo, calcule o valor de &#946 a partir da resposta do item anterior.',
+					enunciado: 'Utilizando o botão arcsen ou sin<sup>-1</sup> da sua calculadora, calcule o valor de &#946 a partir da resposta do item anterior.',
 					msgErro: 'Se você sabe o valor do seno de um ângulo, você pode usar a função inversa para descobrir seu ângulo correspondente.',
 					msgAjuda: 'Arredonde para um número inteiro, em graus.'
 				}
