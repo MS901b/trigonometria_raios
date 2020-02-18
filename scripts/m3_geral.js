@@ -1,5 +1,5 @@
 ﻿/********************
- * Funcoes do Flash *
+ * Funcoes do armazenamento *
  ********************/
 // Retorna uma Array com todas as inputs que começam com "parte"
 function pegaNomesResp() {
@@ -15,12 +15,12 @@ function pegaNomesResp() {
 	return allNames.uniq();
 }
 
-//Funcao que pega no flash o valor da resposta do id passado.
+//Funcao que pega o valor da resposta do id passado.
 function getResp(id) {
 	return $('SalvaLocal').Pega(nomeSoft,id);
 }
 
-//Funcao que guarda no flash o valor da resposta do id passado.
+//Funcao que guarda o valor da resposta do id passado.
 function setResp(id,valor) {
 	$('SalvaLocal').Salva(nomeSoft,id,valor);
 }

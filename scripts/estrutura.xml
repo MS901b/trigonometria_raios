@@ -22,7 +22,7 @@
 		<descricao>Nesta atividade, utiliza-se a Lei de Snell para explicar o vídeo da xícara que, ao ser preenchida com água, revela um dado até então invisível.</descricao>
 		<posicao>
 			<coluna>2</coluna>
-			<altura>-1</altura>
+			<altura>2</altura>
 		</posicao>
 		<ligacoes>
 			<com>a1</com>
@@ -38,7 +38,7 @@
 		<descricao>Nesta Atividade, você aprenderá o que é o Princípio de Fermat e como ele pode ser utilizado para explicar o comportamento da luz.</descricao>
 		<posicao>
 			<coluna>2</coluna>
-			<altura>2</altura>
+			<altura>0</altura>
 		</posicao>
 		<ligacoes>
 			<com>a1</com>

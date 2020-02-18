@@ -1,12 +1,6 @@
 var flash_flag = 1;
 var doc_flag = 0;
 
-Event.observe(document, 'flash:SalvaLocal', function(ev){
-	setAtividade('atividade_3',2,false);	//Comecou a fazer a atividade_3
-	flash_flag = 1;
-	exec_init();
-});
-
 Event.observe(window, 'load', function(){
 	doc_flag = 1;
 	exec_init();
