@@ -2,8 +2,8 @@
 
 Event.observe(window, 'load', function ()
 {
-	//PopupFichaTecnica = new FichaTecnica('Ficha técnica da unidade', FichaUnidade, 'ficha_tecnica_unidade');
-	//PopupFichaProjeto = new FichaTecnica('Ficha técnica do projeto', FichaProjeto, 'ficha_tecnica_projeto');
+	PopupFichaTecnica = new FichaTecnica('Ficha técnica da unidade', FichaUnidade, 'ficha_tecnica_unidade');
+	PopupFichaProjeto = new FichaTecnica('Ficha técnica do projeto', FichaProjeto, 'ficha_tecnica_projeto');
 
      analisaAmbiente();
 });
