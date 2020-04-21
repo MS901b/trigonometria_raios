@@ -1,155 +1,161 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns = "http://www.w3.org/1999/xhtml"  xml:lang = "pt-br"  lang = "pt-br">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-		
-		<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen, projection" title="normal"/>
-		<link rel="alternate stylesheet"  type="text/css" href="css/estilo2.css" title="grande" />
-		
-		<link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
-		<link rel="stylesheet" type="text/css" href="css/notas.css" media="screen, projection" />
-		<link rel="stylesheet" type="text/css" href="css/bloco.css" media="screen, projection" />
-		<link rel="stylesheet" type="text/css" href="css/calculadora.css" media="screen, projection" />
-		<!--[if IE 7]>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen, projection" title="normal" />
+    <link rel="alternate stylesheet" type="text/css" href="css/estilo2.css" title="grande" />
+
+    <link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/notas.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/bloco.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/calculadora.css" media="screen, projection" />
+    <!--[if IE 7]>
 			<link rel="stylesheet" type="text/css" href="css/estilo_ie7.css" media="screen, projection" />
 		<![endif]-->
-		<!--[if lte IE 6]>	
+    <!--[if lte IE 6]>	
 			<link rel="stylesheet" type="text/css" href="css/estilo_ie6.css" media="screen, projection" />
 		<![endif]-->
-		
-		<script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
-		<script type="text/javascript" src="scripts/protoaculous.js"></script>
-		<script type="text/javascript" src="scripts/salvaLocal.js"></script>
-		<script type="text/javascript" src="scripts/popup.js"></script>
-		<script type="text/javascript" src="scripts/notas.js"></script>
-		<script type="text/javascript" src="scripts/bloco.js"></script>
-		<script type="text/javascript" src="scripts/calculadora.js"></script>
-		<script type="text/javascript" src="scripts/rolagem.js"></script>
-		
-		<!-- O arquivo referencias.js e curiosidades.js devem ser incluídos depois do interface -->
-		<script type="text/javascript" src="scripts/interface.js"></script>
-		<script type="text/javascript" src="scripts/referencias.js"></script>
-		<script type="text/javascript" src="scripts/curiosidades.js"></script>
-		
-		<!-- O arquivo exemplo_correcao.js que contem as funções que corrigem, deve ser incluido antes do exemplo_conteudo.js-->
-		<!-- O arquivo inputs.js deve ser incluído por último -->
-		<script type="text/javascript" src="scripts/m3_geral.js"></script>
-		<script type="text/javascript" src="scripts/refracao.js"></script>
-		<script type="text/javascript" src="scripts/refracao_atv3_correcao.js"></script>
-		<script type="text/javascript" src="scripts/refracao_atv3_conteudo.js"></script>
-		<script type="text/javascript" src="scripts/inputs.js"></script>
 
-		<meta name=viewport content="width=device-width,initial-scale=1">  
-        <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
+    <script type="text/javascript" src="scripts/protoaculous.js"></script>
+    <script type="text/javascript" src="scripts/salvaLocal.js"></script>
+    <script type="text/javascript" src="scripts/popup.js"></script>
+    <script type="text/javascript" src="scripts/notas.js"></script>
+    <script type="text/javascript" src="scripts/bloco.js"></script>
+    <script type="text/javascript" src="scripts/calculadora.js"></script>
+    <script type="text/javascript" src="scripts/rolagem.js"></script>
 
-		<script type="text/javascript">
-			
-			//var nomeSoft = "halos1";
-			var PosicaoAtual = {Atividade: 3, Parte: 0};
-			var ProximaParte = 'atividade3_parte2.html';
-			
-			/* da questao para o caderno removida
-			var Links = $H({
-				ajuda_reflexao: {
-					conteudo: "O ponto B' é tal que o segmento BB' é perpendicular à superfície refletora, e esta corta BB' exatamente no seu ponto médio.",
-					layout: ['seta_baixo', 'esquerda'],
-					largura: 10
-				}
-			});*/
+    <!-- O arquivo referencias.js e curiosidades.js devem ser incluídos depois do interface -->
+    <script type="text/javascript" src="scripts/interface.js"></script>
+    <script type="text/javascript" src="scripts/referencias.js"></script>
+    <script type="text/javascript" src="scripts/curiosidades.js"></script>
 
-		</script>
-	
-		<title>Trigonometria e Raios Luminosos</title>
-	</head>
-	<body>
-	<!--
+    <!-- O arquivo exemplo_correcao.js que contem as funções que corrigem, deve ser incluido antes do exemplo_conteudo.js-->
+    <!-- O arquivo inputs.js deve ser incluído por último -->
+    <script type="text/javascript" src="scripts/m3_geral.js"></script>
+    <script type="text/javascript" src="scripts/refracao.js"></script>
+    <script type="text/javascript" src="scripts/refracao_atv3_correcao.js"></script>
+    <script type="text/javascript" src="scripts/refracao_atv3_conteudo.js"></script>
+    <script type="text/javascript" src="scripts/inputs.js"></script>
+
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+    <script type="text/javascript">
+        //var nomeSoft = "halos1";
+        var PosicaoAtual = {
+            Atividade: 3,
+            Parte: 0
+        };
+        var ProximaParte = 'atividade3_parte2.html';
+
+        /* da questao para o caderno removida
+        var Links = $H({
+        	ajuda_reflexao: {
+        		conteudo: "O ponto B' é tal que o segmento BB' é perpendicular à superfície refletora, e esta corta BB' exatamente no seu ponto médio.",
+        		layout: ['seta_baixo', 'esquerda'],
+        		largura: 10
+        	}
+        });*/
+    </script>
+
+    <title>Trigonometria e Raios Luminosos</title>
+</head>
+
+<body>
+    <!--
 	Nunca crie um "onload" aqui, use a Classe Event do Prototype: Event.observe(window, 'load', funcaoAqui);
 	Veja um exemplo no arquivo exemplo_correcao.js
 	-->
-		<div id="container">
-			<div id="cabecalho">
-				<div id="onde_estou">
-					<div class="numero_atividade">3</div>
-					<h1>Trigonometria e Raios Luminosos</h1> <img src="img_layout/setinha-cabecalho.gif" alt=""/> <h2>Encontrando o Princípio de Fermat</h2>
-				</div>
-				<div id="logo"></div>
-				<div id="links">
-					<a id="mapa" href="mapa.html" >Mapa</a>
-					<a href="introducao.html">Introdução</a>
-					<a href="index.html">Início</a>
-				</div>
-				
-				<div class="limpador"></div>
-			</div>
-			<!-- Por enquanto o controle de partes trancadas n�o ser� implementado-->
-			<ul id="partes">
-			</ul>
-						
-			<div id="software">
-				<div id="conteudo">
-					<div class="texto_solto">
-					<p>
-						O Princípio de <a id="referencia2">Fermat</a> diz que a trajetória da luz entre dois pontos sempre será aquela que minimiza o tempo total de deslocamento entre tais pontos.
-					</p>
-					</div>
-					
-					<div class="caixa instrucoes">
-						<h2>Instruções</h2>
-						<p>
-							A ferramenta ao lado simula o deslocamento da luz entre os pontos A e B. Observe que, para chegar em B, a luz reflete na superfície indicada.
-						</p>
-						<p>
-							Você pode mover o ponto C, para alterar a trajetória da luz.
-						</p>
-						<p>
-							No canto superior direito da ferramenta, está indicada a distância total percorrida pelo raio luminoso.
-						</p>
-					</div>
-					
-					<div id="questoes">
-					
-						<!--
+    <div id="container">
+        <div id="cabecalho">
+            <div id="onde_estou">
+                <div class="numero_atividade">3</div>
+                <h1>Trigonometria e Raios Luminosos</h1> <img src="img_layout/setinha-cabecalho.gif" alt="" />
+                <h2>Encontrando o Princípio de Fermat</h2>
+            </div>
+            <div id="logo"></div>
+            <div id="links">
+                <a id="mapa" href="mapa.html">Mapa</a>
+                <a href="introducao.html">Introdução</a>
+                <a href="index.html">Início</a>
+            </div>
+
+            <div class="limpador"></div>
+        </div>
+        <!-- Por enquanto o controle de partes trancadas n�o ser� implementado-->
+        <ul id="partes">
+        </ul>
+
+        <div id="software">
+            <div id="conteudo">
+                <div class="texto_solto">
+                    <p>
+                        O Princípio de <a id="referencia2">Fermat</a> diz que a trajetória da luz entre dois pontos sempre será aquela que minimiza o tempo total de deslocamento entre tais pontos.
+                    </p>
+                </div>
+
+                <div class="caixa instrucoes">
+                    <h2>Instruções</h2>
+                    <p>
+                        A ferramenta ao lado simula o deslocamento da luz entre os pontos A e B. Observe que, para chegar em B, a luz reflete na superfície indicada.
+                    </p>
+                    <p>
+                        Você pode mover o ponto C, para alterar a trajetória da luz.
+                    </p>
+                    <p>
+                        No canto superior direito da ferramenta, está indicada a distância total percorrida pelo raio luminoso.
+                    </p>
+                </div>
+
+                <div id="questoes">
+
+                    <!--
 						Para o Script se localizar, essa div "texto_gen�rico" � necess�ria. Caso n�o tenha texto aqui, deixe ela vazia.
 						Coloque aqui qualquer texto gen�rico de instru��es e teoria.
 						-->
-						<div id="texto_generico">
-							<p>
-								Como a velocidade da luz não muda ao longo do trajeto, para minimizar o tempo basta minimizar a distância percorrida. É o que você fará nas questões a seguir.
-							</p>
-						</div>
+                    <div id="texto_generico">
+                        <p>
+                            Como a velocidade da luz não muda ao longo do trajeto, para minimizar o tempo basta minimizar a distância percorrida. É o que você fará nas questões a seguir.
+                        </p>
+                    </div>
 
-						
-						<!-- Aqui v�o ser colocadas as quest�es, via JavaScript.-->
-						
-						<div id="parte1_q1"></div>
-						<p>
-							Se você aumentar muito a precisão das medidas da ferramente ao lado, notará que a menor trajetória é aquela em que o ângulo de incidência e de reflexão são iguais. É exatamente isso que se observa no mundo real quando algum objeto reflete em uma superfície.
-						</p>
-						
 
-						
-						<a href="javascript:;" id="corrigir_tudo">Corrigir todas as questões</a>
+                    <!-- Aqui v�o ser colocadas as quest�es, via JavaScript.-->
 
-						<a id="link_continuar">
-							<span class="escondido">Continuar</span>
-						</a>
-						<div class="limpador"></div>
-					</div>
-				</div>
-			</div>
-			<br class="limpador" />
-			<div id="rodape">
-				<a href="​http://​m3.ime.unicamp.br" target="_blank">Sobre o Matemática Multimídia</a>
-			</div>
-		</div>
-		<div id="applet">
-			<div id="borda_applet" class="altura_applet_4 borda sem_fundo">
+                    <div id="parte1_q1"></div>
+                    <p>
+                        Se você aumentar muito a precisão das medidas da ferramente ao lado, notará que a menor trajetória é aquela em que o ângulo de incidência e de reflexão são iguais. É exatamente isso que se observa no mundo real quando algum objeto reflete em uma superfície.
+                    </p>
 
-				<div id="ggbApplet"></div> 
-                <script>  
-                    var ggbApp = new GGBApplet({"appName": "classic", 
-                    "width": 519, "height": 380, 
+
+
+                    <a href="javascript:;" id="corrigir_tudo">Corrigir todas as questões</a>
+
+                    <a id="link_continuar">
+                        <span class="escondido">Continuar</span>
+                    </a>
+                    <div class="limpador"></div>
+                </div>
+            </div>
+        </div>
+        <br class="limpador" />
+        <div id="rodape">
+            <a href="http://​m3.ime.unicamp.br" target="_blank">Sobre o Matemática Multimídia</a>
+        </div>
+    </div>
+    <div id="applet">
+        <div id="borda_applet" class="altura_applet_4 borda sem_fundo">
+
+            <div id="ggbApplet"></div>
+            <script>
+                var ggbApp = new GGBApplet({
+                    "appName": "classic",
+                    "width": 519,
+                    "height": 380,
                     "filename": "applets/fermat_reflexao_final.ggb",
                     "showResetIcon": false,
                     "enableRightClick": false,
@@ -158,34 +164,35 @@
                     "showToolBarHelp": false,
                     "showAlgebraInput": false,
                     "enableShiftDragZoom": false,
-                    "useBrowserForJS": true                
-                    }, true);
-                    window.addEventListener("load", function() { 
+                    "useBrowserForJS": true
+                }, true);
+                window.addEventListener("load", function() {
                     ggbApp.inject('ggbApplet');
-                    });
-                </script>
+                });
+            </script>
 
-				<div class="canto sup_esq"></div>
-				<div class="canto sup_dir"></div>
-				<div class="canto inf_esq"></div>
-				<div class="canto inf_dir"></div>
-				<div id="associacao"></div>
-			</div>
-			<div id="comandos">
-				<!--<input id="checkBoxA3_P1" type="checkbox" class="botao botao_enorme" /> Mostrar Ângulos-->
-				<input type="checkbox" id="checkBoxA3_P1" onClick="javascript:mostrarAnguloDesvio();"> Mostrar Ângulos 
-			</div>
-		</div>
-		
-		<div id="associado"></div>
-	
-		
-		<div id="ferramentas">
-			<a href="javascript:;" onclick="return false;" id="link_notas"><span class="escondido">referencias</span></a>
-			<a href="javascript:;" onclick="return false;" id="link_bloco"><span class="escondido">bloco de notas</span></a>
-			<!-- <a href="javascript:;" id="link_calculadora" onclick="javascript:calculadora();"><span class="escondido">calculadora</span></a>
+            <div class="canto sup_esq"></div>
+            <div class="canto sup_dir"></div>
+            <div class="canto inf_esq"></div>
+            <div class="canto inf_dir"></div>
+            <div id="associacao"></div>
+        </div>
+        <div id="comandos">
+            <!--<input id="checkBoxA3_P1" type="checkbox" class="botao botao_enorme" /> Mostrar Ângulos-->
+            <input type="checkbox" id="checkBoxA3_P1" onClick="javascript:mostrarAnguloDesvio();"> Mostrar Ângulos
+        </div>
+    </div>
+
+    <div id="associado"></div>
+
+
+    <div id="ferramentas">
+        <a href="javascript:;" onclick="return false;" id="link_notas"><span class="escondido">referencias</span></a>
+        <a href="javascript:;" onclick="return false;" id="link_bloco"><span class="escondido">bloco de notas</span></a>
+        <!-- <a href="javascript:;" id="link_calculadora" onclick="javascript:calculadora();"><span class="escondido">calculadora</span></a>
 			<a href="javascript:setActiveStyleSheet('grande');" id="link_acessibilidade"><span class="escondido">acessibilidade</span></a> -->
-		</div>
-		<div id="calc" class="escondido"></div>
-	</body>
+    </div>
+    <div id="calc" class="escondido"></div>
+</body>
+
 </html>

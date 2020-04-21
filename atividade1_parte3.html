@@ -1,137 +1,144 @@
 ﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns = "http://www.w3.org/1999/xhtml"  xml:lang = "pt-br"  lang = "pt-br">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-		
-		<link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen, projection" title="normal"/>
-		<link rel="alternate stylesheet"  type="text/css" href="css/estilo2.css" title="grande" />
-		
-		<link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
-		<link rel="stylesheet" type="text/css" href="css/notas.css" media="screen, projection" />
-		<link rel="stylesheet" type="text/css" href="css/bloco.css" media="screen, projection" />
-		<link rel="stylesheet" type="text/css" href="css/calculadora.css" media="screen, projection" />
-		<!--[if IE 7]>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" media="screen, projection" title="normal" />
+    <link rel="alternate stylesheet" type="text/css" href="css/estilo2.css" title="grande" />
+
+    <link rel="stylesheet" type="text/css" href="css/popup.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/notas.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/bloco.css" media="screen, projection" />
+    <link rel="stylesheet" type="text/css" href="css/calculadora.css" media="screen, projection" />
+    <!--[if IE 7]>
 			<link rel="stylesheet" type="text/css" href="css/estilo_ie7.css" media="screen, projection" />
 		<![endif]-->
-		<!--[if lte IE 6]>	
+    <!--[if lte IE 6]>	
 			<link rel="stylesheet" type="text/css" href="css/estilo_ie6.css" media="screen, projection" />
 		<![endif]-->
-		
-		<script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
-		<script type="text/javascript" src="scripts/protoaculous.js"></script>
-		<script type="text/javascript" src="scripts/salvaLocal.js"></script>
-		<script type="text/javascript" src="scripts/popup.js"></script>
-		<script type="text/javascript" src="scripts/notas.js"></script>
-		<script type="text/javascript" src="scripts/bloco.js"></script>
-		<script type="text/javascript" src="scripts/calculadora.js"></script>
-		<script type="text/javascript" src="scripts/rolagem.js"></script>
-		
-		<!-- O arquivo referencias.js e curiosidades.js devem ser incluídos depois do interface -->
-		<script type="text/javascript" src="scripts/interface.js"></script>
-		<script type="text/javascript" src="scripts/referencias.js"></script>
-		<script type="text/javascript" src="scripts/curiosidades.js"></script>
-		
-		<!-- O arquivo exemplo_correcao.js que contem as funções que corrigem, deve ser incluido antes do exemplo_conteudo.js-->
-		<!-- O arquivo inputs.js deve ser incluído por último -->
-		<script type="text/javascript" src="scripts/m3_geral.js"></script>
-		<script type="text/javascript" src="scripts/refracao.js"></script>
-		<script type="text/javascript" src="scripts/refracao_atv1_correcao.js"></script>
-		<script type="text/javascript" src="scripts/refracao_atv1_conteudo.js"></script>
-		<script type="text/javascript" src="scripts/inputs.js"></script>
 
-		<meta name=viewport content="width=device-width,initial-scale=1">  
-        <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    <script type="text/javascript" src="scripts/AC_RunActiveContent.js"></script>
+    <script type="text/javascript" src="scripts/protoaculous.js"></script>
+    <script type="text/javascript" src="scripts/salvaLocal.js"></script>
+    <script type="text/javascript" src="scripts/popup.js"></script>
+    <script type="text/javascript" src="scripts/notas.js"></script>
+    <script type="text/javascript" src="scripts/bloco.js"></script>
+    <script type="text/javascript" src="scripts/calculadora.js"></script>
+    <script type="text/javascript" src="scripts/rolagem.js"></script>
 
-		<script type="text/javascript">
-			
-			//var nomeSoft = "halos1";
-			var PosicaoAtual = {Atividade: 1, Parte: 2};
-			var ProximaParte = 'atividade1_parte4.html';
-			
-		</script>
-		<title>Trigonometria e Raios Luminosos</title>
-	</head>
-	<body>
-	<!--
+    <!-- O arquivo referencias.js e curiosidades.js devem ser incluídos depois do interface -->
+    <script type="text/javascript" src="scripts/interface.js"></script>
+    <script type="text/javascript" src="scripts/referencias.js"></script>
+    <script type="text/javascript" src="scripts/curiosidades.js"></script>
+
+    <!-- O arquivo exemplo_correcao.js que contem as funções que corrigem, deve ser incluido antes do exemplo_conteudo.js-->
+    <!-- O arquivo inputs.js deve ser incluído por último -->
+    <script type="text/javascript" src="scripts/m3_geral.js"></script>
+    <script type="text/javascript" src="scripts/refracao.js"></script>
+    <script type="text/javascript" src="scripts/refracao_atv1_correcao.js"></script>
+    <script type="text/javascript" src="scripts/refracao_atv1_conteudo.js"></script>
+    <script type="text/javascript" src="scripts/inputs.js"></script>
+
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+
+    <script type="text/javascript">
+        //var nomeSoft = "halos1";
+        var PosicaoAtual = {
+            Atividade: 1,
+            Parte: 2
+        };
+        var ProximaParte = 'atividade1_parte4.html';
+    </script>
+    <title>Trigonometria e Raios Luminosos</title>
+</head>
+
+<body>
+    <!--
 	Nunca crie um "onload" aqui, use a Classe Event do Prototype: Event.observe(window, 'load', funcaoAqui);
 	Veja um exemplo no arquivo exemplo_correcao.js
 	-->
-		<div id="container">
-			<div id="cabecalho">
-				<div id="onde_estou">
-					<div class="numero_atividade">1</div>
-					<h1>Trigonometria e Raios Luminosos</h1> <img src="img_layout/setinha-cabecalho.gif" alt=""/> <h2>Encontrando a Lei de Snell</h2>
-				</div>
-				<div id="logo"></div>
-				<div id="links">
-					<a id="mapa" href="mapa.html" >Mapa</a>
-					<a href="introducao.html">Introdução</a>
-					<a href="index.html">Início</a>
-				</div>
-				
-				<div class="limpador"></div>
-			</div>
-			<!-- Por enquanto o controle de partes trancadas não será implementado-->
-			<ul id="partes">
-			</ul>
-			
-			<div id="software">
-				<div id="conteudo">	
-					<div class="texto_solto">
-						<p>
-							O próximo passo para compreender o fenômeno da refração de um raio de luz será calcular o valor de k, da relação encontrada anteriormente:
-						</p>
-						<p class="formula"> <img src="imgs/form1.png" alt="imagem da form1" /> </p>
-					</div>
-					
-					<div id="questoes">
-					
-						<!--
+    <div id="container">
+        <div id="cabecalho">
+            <div id="onde_estou">
+                <div class="numero_atividade">1</div>
+                <h1>Trigonometria e Raios Luminosos</h1> <img src="img_layout/setinha-cabecalho.gif" alt="" />
+                <h2>Encontrando a Lei de Snell</h2>
+            </div>
+            <div id="logo"></div>
+            <div id="links">
+                <a id="mapa" href="mapa.html">Mapa</a>
+                <a href="introducao.html">Introdução</a>
+                <a href="index.html">Início</a>
+            </div>
+
+            <div class="limpador"></div>
+        </div>
+        <!-- Por enquanto o controle de partes trancadas não será implementado-->
+        <ul id="partes">
+        </ul>
+
+        <div id="software">
+            <div id="conteudo">
+                <div class="texto_solto">
+                    <p>
+                        O próximo passo para compreender o fenômeno da refração de um raio de luz será calcular o valor de k, da relação encontrada anteriormente:
+                    </p>
+                    <p class="formula"> <img src="imgs/form1.png" alt="imagem da form1" /> </p>
+                </div>
+
+                <div id="questoes">
+
+                    <!--
 						Para o Script se localizar, essa div "texto_genérico" é necessária. Caso não tenha texto aqui, deixe ela vazia.
 						Coloque aqui qualquer texto genérico de instruções e teoria.
 						-->
-						<div id="texto_generico">
-						</div>
-						
-						<!-- Aqui vão ser colocadas as questões, via JavaScript.-->
-						
-						<div id="parte3_q6"></div>
-						<p>
-							Note que o valor que você obteve na questão anterior é igual ou muito próximo a 1,33.... Esse é o valor esperado para k no caso da refração de um raio luminoso ao passar do ar para a água. Pequenas diferenças podem ocorrer devido à precisão das medições realizadas.
-						</p>
-						<p>
-							Nas questões a seguir, considere k=1,33.
-						</p>
-						<div id="parte3_q7"></div>
-						<div id="parte3_q8"></div>
-						<p>
-							Note que, para a refração aqui analisada, em que o raio de luz passa do ar para a água, o ângulo de saída é sempre maior do que o ângulo de entrada.
-						</p>
-						<p>
-							O que aconteceria se tal processo fosse invertido, ou seja, se fosse analisada a trajetória do raio passando da água para o ar?
-						</p>
+                    <div id="texto_generico">
+                    </div>
 
-						<a href="javascript:;" id="corrigir_tudo">Corrigir todas as questões</a>
-						<a id="link_continuar">
-							<span class="escondido">Continuar</span>
-						</a>
-						<div class="limpador"></div>
-					</div>
-				</div>
-			</div>
-			<br class="limpador" />
-			<div id="rodape">
-				<a href="​http://​m3.ime.unicamp.br" target="_blank">Sobre o Matemática Multimídia</a>
-			</div>
-		</div>
-		<div id="applet">
-			<div id="borda_applet" class="altura_applet_4 borda sem_fundo">
-				
-				<div id="ggbApplet"></div> 
-                <script>  
-                    var ggbApp = new GGBApplet({"appName": "classic", 
-                    "width": 519, "height": 380, 
+                    <!-- Aqui vão ser colocadas as questões, via JavaScript.-->
+
+                    <div id="parte3_q6"></div>
+                    <p>
+                        Note que o valor que você obteve na questão anterior é igual ou muito próximo a 1,33.... Esse é o valor esperado para k no caso da refração de um raio luminoso ao passar do ar para a água. Pequenas diferenças podem ocorrer devido à precisão das medições
+                        realizadas.
+                    </p>
+                    <p>
+                        Nas questões a seguir, considere k=1,33.
+                    </p>
+                    <div id="parte3_q7"></div>
+                    <div id="parte3_q8"></div>
+                    <p>
+                        Note que, para a refração aqui analisada, em que o raio de luz passa do ar para a água, o ângulo de saída é sempre maior do que o ângulo de entrada.
+                    </p>
+                    <p>
+                        O que aconteceria se tal processo fosse invertido, ou seja, se fosse analisada a trajetória do raio passando da água para o ar?
+                    </p>
+
+                    <a href="javascript:;" id="corrigir_tudo">Corrigir todas as questões</a>
+                    <a id="link_continuar">
+                        <span class="escondido">Continuar</span>
+                    </a>
+                    <div class="limpador"></div>
+                </div>
+            </div>
+        </div>
+        <br class="limpador" />
+        <div id="rodape">
+            <a href="http://​m3.ime.unicamp.br" target="_blank">Sobre o Matemática Multimídia</a>
+        </div>
+    </div>
+    <div id="applet">
+        <div id="borda_applet" class="altura_applet_4 borda sem_fundo">
+
+            <div id="ggbApplet"></div>
+            <script>
+                var ggbApp = new GGBApplet({
+                    "appName": "classic",
+                    "width": 519,
+                    "height": 380,
                     "filename": "applets/grafico_seno.ggb",
                     "showResetIcon": false,
                     "enableRightClick": false,
@@ -140,30 +147,31 @@
                     "showToolBarHelp": false,
                     "showAlgebraInput": false,
                     "enableShiftDragZoom": false,
-                    "useBrowserForJS": true                
-                    }, true);
-                    window.addEventListener("load", function() { 
+                    "useBrowserForJS": true
+                }, true);
+                window.addEventListener("load", function() {
                     ggbApp.inject('ggbApplet');
-                    });
-                </script>
+                });
+            </script>
 
-				<div class="canto sup_esq"></div>
-				<div class="canto sup_dir"></div>
-				<div class="canto inf_esq"></div>
-				<div class="canto inf_dir"></div>
-				<div id="associacao"></div>
-			</div>
-		</div>
-		
-		<div id="associado"></div>
+            <div class="canto sup_esq"></div>
+            <div class="canto sup_dir"></div>
+            <div class="canto inf_esq"></div>
+            <div class="canto inf_dir"></div>
+            <div id="associacao"></div>
+        </div>
+    </div>
 
-		
-		<div id="ferramentas">
-			<a href="javascript:;" onclick="return false;" id="link_notas"><span class="escondido">referencias</span></a>
-			<a href="javascript:;" onclick="return false;" id="link_bloco"><span class="escondido">bloco de notas</span></a>
-			<!-- <a href="javascript:;" id="link_calculadora" onclick="javascript:calculadora();"><span class="escondido">calculadora</span></a>
+    <div id="associado"></div>
+
+
+    <div id="ferramentas">
+        <a href="javascript:;" onclick="return false;" id="link_notas"><span class="escondido">referencias</span></a>
+        <a href="javascript:;" onclick="return false;" id="link_bloco"><span class="escondido">bloco de notas</span></a>
+        <!-- <a href="javascript:;" id="link_calculadora" onclick="javascript:calculadora();"><span class="escondido">calculadora</span></a>
 			<a href="javascript:setActiveStyleSheet('grande');" id="link_acessibilidade"><span class="escondido">acessibilidade</span></a> -->
-		</div>
-		<div id="calc" class="escondido"></div>
-	</body>
+    </div>
+    <div id="calc" class="escondido"></div>
+</body>
+
 </html>

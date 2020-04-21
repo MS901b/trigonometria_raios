@@ -1,26 +1,21 @@
-var IdPadrao = [['parte/parte','q/questao','/itemletra','/subitem'],'_'];
+var IdPadrao = [
+    ['parte/parte', 'q/questao', '/itemletra', '/subitem'], '_'
+];
 
 var Partes = ['1'];
 var nomeSoft = 'halos1';
 
-var Questoes = 
-[
-	{
-		parte1_q1:
-		{
-			enunciadoGeral: '',
-			itens:
-			[
-				{//A
-					tipo: 'instrucao',
-					corrigir: corrige_q_1_a,
-					enunciado: 'Posicione a altura da água de tal modo que o raio de luz passe pelo vértice superior direito do dado.',
-					msgErro: 'Movimente o ponto F e observe o raio luminoso que sai da xícara.'
-				}
-			]
-		}
-	}
-]
+var Questoes = [{
+    parte1_q1: {
+        enunciadoGeral: '',
+        itens: [{ //A
+            tipo: 'instrucao',
+            corrigir: corrige_q_1_a,
+            enunciado: 'Posicione a altura da água de tal modo que o raio de luz passe pelo vértice superior direito do dado.',
+            msgErro: 'Movimente o ponto F e observe o raio luminoso que sai da xícara.'
+        }]
+    }
+}]
 
 /*
 	Bloco de Notas
@@ -33,6 +28,6 @@ var Questoes =
 */
 
 var MeuBloco = new Array();
-Event.observe(window, 'load', function(){
-	BlocoNotas = new Blocao();
+Event.observe(window, 'load', function() {
+    BlocoNotas = new Bloco();
 });
