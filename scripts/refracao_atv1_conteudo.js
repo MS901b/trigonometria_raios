@@ -59,7 +59,7 @@ var Questoes = [{ //Parte 1
                     [{ antes: '60&#176; :', depois: 'graus' }],
                     [{ antes: '75&#176; :', depois: 'graus' }]
                 ],
-                msgErro: 'Em cada caso, aperte o botão Emitir Raio e, a seguir,  observe o ângulo de saída.'
+                msgErro: 'Em cada caso, ajuste o ângulo de incidência para cada um deles, aperte o botão Emitir Raio e, a seguir, observe o ângulo de saída.'
             }]
         },
         parte1_q3: //Questão 3
@@ -127,7 +127,7 @@ var Questoes = [{ //Parte 1
                 tipo: 'input',
                 corrigir: corrige_q_6_a,
                 enunciado: 'Escolha um dos pontos e substitua na relação acima. Use a calculadora. Qual é o valor de k?',
-                msgErro: 'Calcule o seno de um ângulo. Depois, calcule o seno do outro ângulo. Por fim, divida um pelo outro. Se precisar, use a calculadora, mas anote os valores antes de fazer a divisão.',
+                msgErro: 'Observe os valores do seno dos ângulos no gráfico ao lado, onde os valores dos eixos x e y são respectivamente sen(α) e sen(β).  Por fim, divida um pelo outro. Se precisar, use a calculadora',
                 msgAjuda: 'Considere 2 casas decimais.'
             }]
         },
